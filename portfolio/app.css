@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #001233;
+}
+
+nav {
+    background-color: #cac0b3;
+    color: #ff595a;
+}
+
+header,
+.navbar-brand {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #ff595a;
+}
+
+header span {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.about {
+    margin: 5px;
+    padding-left: 5px;
+    color: #cac0b3;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about .col-6 p {
+    font-size: large;
+    margin: auto;
+    padding-left: 12px;
+}
+
+.about .col-6 img {
+    height: 300px;
+    width: 240px;
+    border-radius: 100%;
+}
+
+.skills div img {
+    height: 150px;
+    width: 150px;
+
+}
+
+.skills div span {
+    color: #cac0b3;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card {
+    width: 18rem;
+    color: #001233;
+    background-color: #cac0b3;
+    border: #ff595a 5px;
+}
+
+.card:hover {
+    box-shadow: #ff595a 5px;
+}
+
+.card img {
+    height: 10rem;
+}
+
+section h2 {
+    color: #ff595a;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    background-color: #cac0b3;
+    color: #001233;
+    font-weight: bold;
+}
+
+footer div div a {
+    color: #001233;
+    text-decoration: none;
+}
+
+footer div div a:hover {
+    color: grey;
+}
+
+footer div div:nth-child(2) {
+    text-align: end;
+}
+
+.btn {
+    background-color: #553d67;
+}
+
+.btn:hover {
+    background-color: #cac0b3;
+}
+
+.contact {
+    color: #cac0b3;
+    font-size: larger;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.contact .col-6:nth-child(1) {
+    border-right: #ff595a solid 1px;
+}
+
+.contact .col-6:nth-child(2) {
+    text-align: center;
+}
+
+.contact .col-6:nth-child(2) div {
+    border: black solid 2px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+.contact .col-6:nth-child(2) div:hover {
+    box-shadow: #ff595a;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
